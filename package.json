@@ -1,0 +1,16 @@
+{
+  "name": "e2e-testing-preview-environments-pipeline",
+  "version": "0.1.0",
+  "description": "Companion code for the Autonoma blog post 'How to Run E2E Tests on Preview Environments'.",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test",
+    "test:list": "playwright test --list",
+    "dev": "echo 'Replace this with your app dev command'"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
